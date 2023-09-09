@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Âncoras</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Usa a tag <strong>a</strong> para indicar o link</p>
+    <p>Usa  após o link as tags <strong>target="_blank"</strong> para indicar abrir em nova guia e <strong>rel="external"</strong> para indicar ao navegador que trata-se de um link externo</p>
+    <p>Para ficar na mesma página não precisa usar target, mas pode usar <strong>target="_self"</strong></p>
+    <p>Você pode acessar meu <a href="https://github.com/opriim" target="_blank" rel="external">repositório público do GitHub</a></p>
+    <p>Você também pode acessar meu <a href="https://www.youtube.com/channel/UCkcdtlBjSff2ADyLtb3FDNQ" target="_blank" rel="external">canal gratuíto no YouTube</a></p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página, vc pode acessar a <a href="pag002.html" rel="next">minha segunda página</a></p>
+    <p>referenciar com <strong>rel="next"</strong> para indicar ao navegador que este é o link da próxima página imediata</p>
+    <p>Você também pode acessar a <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a></p>
+
+    <h1>Links para downloads</h1>
+    <p>tag <strong>a</strong>, onde o <strong>href</strong> deve ser o arquivo para download, seguido da tag <strong>download="nomedoarquivo.extensão"</strong> e <strong>type="tipodoarquivo/deacordocomalista"</strong> que está nesse link: <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow">https://www.iana.org/assignments/media-types/media-types.xhtml</a></p>
+    <ul>
+        <li><a href="livro/docyelena.pdf" download="docyelena.pdf" type="application/pdf">Baixar o livro PDF</a></li>
+        <li><a href="livro/docyelena.zip" download="docyelena.zip" type="application/zip">Baixar livro zip</a></li>
+    </ul>
+</body>
+</html>

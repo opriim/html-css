@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Japan';
+            src: url('fonts/go3v2.ttf') format(truetype); /*url(outrafonte.tipodafonte) format(tipodafonte);*/
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'DMsans';
+            src: url(fonts/DMsans.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+            /*
+            tipos de formato
+            - oppentype (otf)          
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Appe Advanced Typography)
+
+            */
+        
+        body{
+            font-family: 'DMsans', Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+
+        h1{
+            font-family: 'Japan', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque magni voluptate ea, ducimus eum praesentium laboriosam et corrupti fugiat repellat, adipisci dolor aliquam possimus libero. Tenetur consequuntur magni cupiditate quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque assumenda consectetur reprehenderit porro accusantium tenetur consequatur, vitae alias minus nulla dolorum, earum eius et quidem dignissimos vero laborum nesciunt.</p>
+</body>
+</html>

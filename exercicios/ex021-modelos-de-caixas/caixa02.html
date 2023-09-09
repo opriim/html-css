@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(95, 95, 95);
+            margin: 0px;
+        }
+
+        div{
+            background-color: #F39200;
+            height: 2px;
+        }
+
+        header{
+            background-image: linear-gradient(#00000080, #000000a4);
+            padding: 10px 10px 10px 10px;
+            margin: 0px;
+            position: static;
+        }
+
+        h1#logo{
+            display: inline-block;
+            margin: 10px;
+        }
+
+        nav{
+            display: inline;
+            float: right;
+            padding: 10px;
+            margin: 50px 0px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #F39200;
+            font-weight: bold;
+            padding: 10px 20px;
+            margin: 4px;
+            border-top: solid;
+            border-bottom: solid;
+            border-color: #F39200;
+            border-width: 1px;
+
+        }
+
+        nav > a:hover {
+            color: white;
+            background-color: #F39200;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        
+        article{
+            background-color: darkgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(99, 99, 99);
+        }
+
+        div#bola{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(81, 143, 197);
+            border-radius: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <a href="#">Quem sou eu</a><a href="#">Serviços</a><a href="#">Contatos</a><a href="#">Agenda</a>
+        </nav>
+    </header>
+    <div></div>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cum deserunt ducimus eos earum illo sit? Velit, nostrum? Incidunt doloremque delectus fuga nobis eius officiis impedit aspernatur, repudiandae rem quaerat?</p>
+                <aside>
+                    <p>Escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        Desenvolvido por joaozinho programações ;p
+    </footer>
+
+    <div id="bola">
+
+    </div>
+
+</body>
+</html>
