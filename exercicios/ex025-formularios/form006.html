@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<!--Sempre teste componentes de formulário em diferentes navegadores-->
+<body>
+    <h1>Formulário</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on"> <!--Quando utilizar o envio de arquivos, tem que utilizar o method="post" // passando de 3000 bites, precisa ser post-->
+
+        <div>
+            <label for="icor">Cor: </label>
+            <input type="color" name="Cor" id="icor" value="#00ffff">
+        </div>
+
+        <div>
+            <label for="inivel">Nível de satisfação: </label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5">
+        </div>
+
+        <div>
+            <!--Quando utilizar o envio de arquivos, tem que utilizar o method="post"-->
+            <label for="ifoto">Foto de Perfil: </label>
+            <input type="file" name="foto" id="ifoto">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+</body>
+</html>
